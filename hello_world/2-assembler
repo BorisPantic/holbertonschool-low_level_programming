@@ -1,2 +1,2 @@
 #!/bin/bash
-export CILE=main.c |gcc -s $CFILE
+export CILE=main.c |gcc -S $CFILE
