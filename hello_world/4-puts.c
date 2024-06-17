@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-int main( int argc, char * argv[] ) {
-
-	/* Fonction put pour ecrire le message demandé */
-
-	puts ( ""Programming is like building a multilingual puzzle" );
-
-return 0;
-
+int main(void)
+{
+	/* Fonction puts pour ecrire le message de l'exercice */
+	puts("Programming is like building a multilingual puzzle)
+return0;
 }
