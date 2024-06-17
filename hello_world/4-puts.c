@@ -8,7 +8,7 @@
 int main(void)
 {
 	/* Fonction puts pour ecrire le message de l'exercice */
-	puts("\"Programming is like building a multilingual puzzle);
+	puts("\"Programming is like building a multilingual puzzle");
 
 return (0);
 }
