@@ -1,2 +1,2 @@
 #!/bin/bash
-alias $CFILE="gcc -o"
+alias CFILE="main.c"
