@@ -1,2 +1,2 @@
 #!/bin/bash
-expor CFILE=1-main.c |gcc -o $CFILE
+export CFILE=1-main.c |gcc -o $CFILE
