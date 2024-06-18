@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *
+ *main - Print alphabet and numbers followed by a new line.
+ *Return:0
  */
 
 int main(void)
