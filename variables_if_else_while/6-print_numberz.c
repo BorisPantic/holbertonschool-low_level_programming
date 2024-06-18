@@ -7,9 +7,10 @@
 
 int main(void)
 {
-char t = '0123456789\n';
 
-putchar(t)
+putchar('0123456789');
+
+putchar('\n')
 
 return (0);
 }
