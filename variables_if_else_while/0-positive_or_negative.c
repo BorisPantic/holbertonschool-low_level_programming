@@ -7,7 +7,7 @@
  * main - prints if n is positive, negative or is equal to zero.
  * Return:0
  * */
-
+int main(void)
 {
 	int n;
 
