@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- *main - prints last digit of the n var.
- * return 0
+ * main - Prints the last digit of the number stored in the variable n .
+ * Return:0
  */
 
 int main(void)
