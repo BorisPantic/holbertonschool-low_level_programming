@@ -10,7 +10,7 @@ int main(void)
 char i = '0';
 char u =',';
 while (i <= '9')
-putchar(i++,u);
+putchar(i++ && u);
 putchar('\n);
 return (0);
 }
