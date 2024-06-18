@@ -6,21 +6,18 @@
 /**
  * main - prints if n is positive, negative or is equal to zero.
  * Return:0
- * */
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(int n > 0 ){
-		printf("is positive");
-	}
-	else if(int n > 0 ){
-		printf("is negative");
-	}
-	else(int n = 0){
-		printf("is zero");
-	}
-	return (0);
+	if (n > 0)
+		printf("%d is positive,n");
+	if (n < 0)
+		printf("%d is negative,n");
+	if (n == 0)
+		printf("%d is zero,n");
+return (0);
 }
