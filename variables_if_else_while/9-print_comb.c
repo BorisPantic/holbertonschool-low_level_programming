@@ -11,6 +11,6 @@ char i = '0';
 char u =',';
 while (i <= '9')
 putchar(i++ && u);
-putchar('\n);
+putchar('\n');
 return (0);
 }
