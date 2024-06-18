@@ -8,13 +8,16 @@
 int main(void)
 {
 char i = '0';
-char u =',';
-char p = ' ';
-while (i < '9')
+
+while (i <= '9')
 {
-putchar(i++);
-putchar(u);
-putchar(p);
+putchar(i);
+if (i != '9')
+{
+putchar(',');
+putchar(' ');
+}
+i++;
 }
 putchar('\n');
 return (0);
