@@ -9,8 +9,9 @@ int main(void)
 {
 char i = '0';
 char u =',';
+char p = ' ';
 while (i <= '9')
-putchar(i++ && u);
+putchar(i++ && u && p);
 putchar('\n');
 return (0);
 }
