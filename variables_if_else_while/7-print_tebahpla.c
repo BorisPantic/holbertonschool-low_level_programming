@@ -10,6 +10,6 @@ int main(void)
 char o = 'z'
 while (o >= 'a')
 putchar(o++);
-putchar('\n';
+putchar('\n');
 return (0);
 }
