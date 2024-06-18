@@ -10,8 +10,7 @@ int main(void)
 char a = 'a';
 
 while (a <= 'z')
-if (a == 'q' && a == 'e')
-printf("");
+if (a != 'q' && a != 'e') 
 
 putchar(a++);
 
