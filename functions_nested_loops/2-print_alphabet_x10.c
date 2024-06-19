@@ -18,4 +18,5 @@ for (i = 0 ; i < 10 ; i++)
 	_putchar(a++);
 	_putchar('\n');
 	}
+return (0);
 }
