@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- *main - ta grand mere
- * Return:0
+ *void - function for print alphabet stocked in main.h .
+ *Return:0
  */
 
-int main(void)
+void print_alphabet(void);
 {
 char a = 'a';
-while ('c' <= 'z')
+while (a <= 'z')
 _putchar(a++);
 _putchar('\n');
 return (0);
