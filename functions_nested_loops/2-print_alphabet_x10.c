@@ -13,9 +13,9 @@ char a = 'a';
 
 for (i = 0 ; i < 10 ; i++)
 
-{
-while (a <= 'z')
-_putchar(a++);
-_putchar('\n');
-}
+	{
+	while (a <= 'z')
+	_putchar(a++);
+	_putchar('\n');
+	}
 }
