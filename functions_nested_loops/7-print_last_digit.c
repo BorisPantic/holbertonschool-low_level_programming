@@ -13,4 +13,5 @@ int print_last_digit(int r)
 		{
 		return (r);
 		}
+	return (0)
 }	
