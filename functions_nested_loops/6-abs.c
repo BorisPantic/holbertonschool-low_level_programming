@@ -7,14 +7,14 @@
 
 int _abs(int)
 {
-	int n
-	if (n < 0)
+	int r
+	if (r < 0)
 		{
-		return (-n);
+		return (-r);
 		}
 	else
 		{
-		return (n);
+		return (r);
 		}
 	return (0);
 }
