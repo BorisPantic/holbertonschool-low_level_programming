@@ -7,18 +7,18 @@
  *@n:value
  */
 
-void print_to_98(int)
+void print_to_98(int n)
 {
-int n = '0';
-while (n <= '98')
+int z = '0';
+while (z <= '98')
 {
-_putchar(n);
+_putchar(z);
 if (n != '98')
 {
 _putchar(',');
 _putchar(' ');
 }
-n++;
+z++;
 }
 return (0);
 }
