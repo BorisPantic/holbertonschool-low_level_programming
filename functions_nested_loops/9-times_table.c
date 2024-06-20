@@ -6,8 +6,8 @@
  */
 void times_table(void)
 {
-    char i;
-    char j;
+    int i;
+    int j;
     char z;
 
     z = i * j;
