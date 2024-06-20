@@ -11,7 +11,7 @@ int print_last_digit(int r)
 {
 	for (r % 10)
 		{
-		return (r);
+		_putchar(r);
 		}
-	return (0)
+	return (0);
 }	
