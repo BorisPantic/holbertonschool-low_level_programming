@@ -9,17 +9,15 @@
 
 void print_to_98(int n)
 {
-int z = '0';
-while (z <= '98')
-{
-_putchar(z);
-if (n != '98')
-{
-_putchar(',');
-_putchar(' ');
+	if (n < 98)
+	{
+	for (; n > 98; n++)
+	printf("%d, ", n)i;
+	}
+	else
+	{
+	for (; n > 98; n--)
+	printf("%d, ", n);
+	}
+	printf("%d\n", 98);
 }
-z++;
-}
-return (0);
-}
-
