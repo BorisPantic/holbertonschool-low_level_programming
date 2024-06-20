@@ -15,7 +15,8 @@ void times_table(void)
             _putchar(z);
             if (j < 98)
             {
-                _putchar(", ");
+                _putchar(',');
+		_putchar(' ');
             }
         }
         _putchar("\n");
