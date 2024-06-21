@@ -25,6 +25,10 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
+				if ((multiple * neuf) / 10 == 0)
+				{
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
