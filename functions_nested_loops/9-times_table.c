@@ -10,7 +10,7 @@ void times_table(void)
     int j = 0;
     int z;
     i = 9;
-    do (;j + 1; j++)
+    do (j + 1; j++)
     while (j == 9)
         {
 	    z = i * j;
