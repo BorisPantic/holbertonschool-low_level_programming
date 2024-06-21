@@ -15,20 +15,20 @@ void times_table(void)
 	{
 		for (neuf = 0; neuf <= 9; neuf++)
 		{
-			if ((multiple * neuf) / 10 != 0)
+			if (multiple * neuf < 10)
 			{
-				_putchar(((multiple * neuf) / 10) + '0');
+				_putchar(' ');
+				_putchar((multiple * neuf) + '0');
 			}
+			else
+			{
+			_putchar(((multiple * neuf) / 10) + '0');
 			_putchar(((multiple * neuf) % 10) + '0');
-
+			}
 			if (neuf < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
-				if ((multiple * neuf) / 10 == 0)
-				{
-					_putchar(' ');
-				}
 			}
 		}
 	_putchar('\n');
