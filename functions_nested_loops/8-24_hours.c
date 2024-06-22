@@ -3,8 +3,8 @@
 
 /**
  * jack_bauer - function that prints every minute of the day of Jack Bauer
- * @hour: hour
- * @min : minutes
+ * @:hour - hour
+ * @:min - minutes
  */
 
 void jack_bauer(void)
