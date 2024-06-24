@@ -19,12 +19,12 @@ int e;
 	{
 		for (z = size - a; z >= 1; z--)
 		{
-			_putchar(' ')
+			_putchar(' ');
 		}
 		for (e = 0; e < size; e++)
 		{
 			_putchar('#');
 		}
-	_putchar('\n')
+	_putchar('\n');
 }
 
