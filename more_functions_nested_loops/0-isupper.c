@@ -8,12 +8,12 @@
 int _isupper(int c)
 
 {
-	if (c = 'A')
-	
+	if (c = 'A'; c <= 'Z')
+	{
 		return(1);
-	
-	else (c = 'a')
-	
+	}
+	else
+	{
 		return(0);
-	
+	}
 }
