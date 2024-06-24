@@ -15,13 +15,13 @@ int e;
 	{
 		_putchar('\n');
 	}
-	for (a = 0; a < size ; a++)
+	for (a = 1; a < size ; a++)
 	{
 		for (z = size - a; z >= 1; z--)
 		{
 			_putchar(' ');
 		}
-		for (e = 0; e < size; e++)
+		for (e = 1; e < a; e++)
 		{
 			_putchar('#');
 		}
