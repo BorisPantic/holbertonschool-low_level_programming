@@ -21,7 +21,7 @@ int e;
 		{
 			_putchar(' ');
 		}
-		for (e = 1; e < a; e++)
+		for (e = 1; e <= a; e++)
 		{
 			_putchar('#');
 		}
