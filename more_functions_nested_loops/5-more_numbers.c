@@ -13,8 +13,8 @@ for (dixfois = 0; dixfois < 10; dixfois++)
 {
 	for (numbers = 0; numbers <=14; numbers++)
 	{
-		putchar(numbers);
+		_putchar(numbers);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 }
