@@ -9,9 +9,9 @@ void more_numbers(void)
 int dixfois;
 int numbers;
 
-for (dixfois = '0'; dixfois < 10; dixfois++)
+for (dixfois = '0'; dixfois < '10'; dixfois++)
 {
-	for (numbers = '0'; numbers <= 14; numbers++)
+	for (numbers = '0'; numbers <= '14'; numbers++)
 	{
 		_putchar(numbers);
 	}
