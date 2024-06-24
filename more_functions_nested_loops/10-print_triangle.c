@@ -26,5 +26,6 @@ int e;
 			_putchar('#');
 		}
 	_putchar('\n');
+	}
 }
 
