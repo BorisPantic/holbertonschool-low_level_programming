@@ -15,7 +15,7 @@ int e;
 	{
 		_putchar('\n');
 	}
-	for (a = 1; a < size ; a++)
+	for (a = 1; a <= size; a++)
 	{
 		for (z = size - a; z >= 1; z--)
 		{
