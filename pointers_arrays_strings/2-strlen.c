@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- *
+ *_strlen - function that copie strlen from standard library
+ *@s: Pointer use for _strlen
+ *Return:string lenght
  */
 
 int _strlen(char *s)
