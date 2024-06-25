@@ -7,6 +7,6 @@
 
 void _puts(char *str)
 {
-	return(*str);
+	_putchar(*str);
 }
 
