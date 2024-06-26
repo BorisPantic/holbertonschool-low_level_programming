@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- *
+ *_puts - copy of puts function
+ *@str: string
  */
 
 void _puts(char *str)
