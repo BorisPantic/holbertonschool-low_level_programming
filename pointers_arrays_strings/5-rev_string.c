@@ -15,7 +15,6 @@ void rev_string(char *s)
 		lenght++;
 		s++;
 		}
-	return (lenght);
 
 	int start = 0;
 	int end = lenght - 1;
