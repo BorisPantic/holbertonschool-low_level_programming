@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recusion - Print a string with recursion
+ * _puts_recursion - Print a string with recursion
  * @s: string
  */
 
@@ -14,5 +14,5 @@ void _puts_recursion(char *s)
 		_puts_recursion(s);
 	}
 	else
-	_putchar('\n');
+		_putchar('\n');
 }
