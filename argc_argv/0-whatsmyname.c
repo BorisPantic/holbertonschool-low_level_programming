@@ -4,6 +4,7 @@
 /**
  * main - Print argv[0] --> name of the program
  * @argv: 0 so the name
+ * @argc: void
  * Return: 0
  */
 
