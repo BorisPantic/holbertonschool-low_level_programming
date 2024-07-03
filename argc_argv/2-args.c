@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 	if (argc > 1)
 	{
-		for (a = 0; a < argc; a++)
+		for (a = 1; a < argc; a++)
 		{
 			printf("%s\n", argv[a]);
 		}
