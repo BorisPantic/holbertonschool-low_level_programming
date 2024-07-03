@@ -10,8 +10,16 @@
 
 int main(int argc, char **argv)
 {
-	(void)argc;
-	printf("%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n"
-			, argv[0], argv[1], argv[2], argv[3], argv[4], argv[5], argv[6], argv[7]);
+	int a;
+
+	printf("%s\n", argv[0]);
+
+	if (argc > 1)
+	{
+		for (a = 0; a < argc; a++)
+		{
+			printf("%s\n", argv[a]);
+		}
+	}
 	return (0);
 }
