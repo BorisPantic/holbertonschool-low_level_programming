@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *
+ * factorial - that return factorial of n
+ * @n: factorial value
+ * Return:recursion of n
  */
 
 int factorial(int n)
