@@ -41,5 +41,4 @@ int _sqrt_recursion(int n)
 		return (n);
 	}
 		return (_square_i(n, 1));
-}	
-
+}
