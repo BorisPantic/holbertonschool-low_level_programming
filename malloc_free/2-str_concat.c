@@ -28,8 +28,8 @@ char *str_concat(char *s1, char *s2)
 		l1++;
 	while (s2[l2] != '\0')
 		l2++;
-	concatstr = malloc(sizeof(char) * (l1 + l2 + 1));
-	if (concatstr == NULL)
+	result = malloc(sizeof(char) * (l1 + l2 + 1));
+	if (result == NULL)
 		return (NULL);
 
 	for (i = 0; i < l1; i++)
