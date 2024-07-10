@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *crate_array - create an array of char
+ *create_array - create an array of char
  *@size: size of the value
  *@c:value to print
  *Return: NULL or array
