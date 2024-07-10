@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 
-/**alloc_grid - give memory to two dimensional array of integer
+/**
+ **alloc_grid - give memory to two dimensional array of integer
  *@width: width of the array
  *@height: height of the array
  *Return: NULL or grid
@@ -16,7 +17,7 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	
+
 	grid = malloc(sizeof(int *) * height);
 	if (grid == NULL)
 		return (NULL);
@@ -26,16 +27,16 @@ int **alloc_grid(int width, int height)
 		if (grid[ih] == NULL)
 		{
 			for (iw = 0; iw < ih; iw++)
-			
-					free(grid[iw]);
-				free(grid);
-				return (NULL);
+
+				free(grid[iw]);
+			free(grid);
+			return (NULL);
 		}
 		for (iw = 0; iw < width; iw++)
-		grid[ih][iw] = 0;
+			grid[ih][iw] = 0;
 	}
 	return (grid);
 }
 
 
-			
+
