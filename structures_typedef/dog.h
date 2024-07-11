@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct dog.h - dog header 
+ * struct my_struct - dog structure in header
  * @age: dog age
  * @owner: owner of the dog
  * @age: age of dog
