@@ -5,7 +5,7 @@
  * struct dog - dog structure in header
  * @age: dog age
  * @owner: owner of the dog
- * @age: age of dog
+ * @name: name of the dog
  */
 
 struct dog
