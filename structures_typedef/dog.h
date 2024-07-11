@@ -2,13 +2,13 @@
 #define DOG_H
 
 /**
- * struct my_struct - dog structure in header
+ * struct dog - dog structure in header
  * @age: dog age
  * @owner: owner of the dog
  * @age: age of dog
  */
 
-struct my_struct
+struct dog
 {
 	char *name;
 	char *owner;
