@@ -7,7 +7,7 @@
  *@d: pointer to dog owner age and name value
  */
 
-void free_dog(dog_t *d);
+void free_dog(dog_t *d)
 {
 	if (d != NULL)
 	{
