@@ -12,10 +12,10 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i;
-	int i2;
-	int l1 = 0;
-	int l2 = 0;
+	unsigned int i;
+	unsigned int i2;
+	unsigned int l1 = 0;
+	unsigned int l2 = 0;
 	char *result;
 
 	if (s1 == NULL)
